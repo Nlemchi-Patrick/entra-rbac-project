@@ -15,7 +15,7 @@ It showcases **access governance**, **least privilege assignments**, and **autom
 | Helpdesk Administrator   | Reset passwords, unlock accounts              |  Helpdesk Staff              | No access to critical roles            |
 | Security Reader          | View audit logs, sign-ins                     | Security Analyst            | Read-only, for monitoring              |
 
-> 
+
 ---
 
 ## Role Assignment Screenshots
