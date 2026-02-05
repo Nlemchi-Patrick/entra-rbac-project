@@ -12,11 +12,10 @@ It showcases **access governance**, **least privilege assignments**, and **autom
 |--------------------------|-----------------------------------------------|------------------------------|----------------------------------------|
 | Global Administrator     | Full Entra access                             | Senior IT Lead (fictitious) | Least privilege, only when needed      |
 | User Administrator       | Create/modify users                           | Helpdesk Lead               | Routine user management                |
-| Helpdesk Administrator   | Reset passwords, unlock accounts             | Helpdesk Staff              | No access to critical roles            |
+| Helpdesk Administrator   | Reset passwords, unlock accounts              |  Helpdesk Staff              | No access to critical roles            |
 | Security Reader          | View audit logs, sign-ins                     | Security Analyst            | Read-only, for monitoring              |
 
-> **Tip:** Use fictitious or sanitized user names for screenshots and documentation.
-
+> 
 ---
 
 ## Role Assignment Screenshots
