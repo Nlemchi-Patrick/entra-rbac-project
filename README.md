@@ -4,6 +4,18 @@
 This repository demonstrates a structured **Role-Based Access Control (RBAC)** model for **Microsoft Entra ID (Azure AD)**.  
 It showcases **access governance**, **least privilege assignments**, and **automation** using PowerShell, making it ideal for enterprise IT, healthcare, or finance environments.
 
+Project Structure
+entra-rbac-project/
+│
+├── README.md
+├── rbac-design.md
+├── screenshots/
+│ ├── 01-global-admin-overview.png
+│ └── ...
+└── scripts/
+├── assign-roles.ps1
+└── list-role-members.ps1
+
 ---
 
 ## Access Matrix
@@ -48,3 +60,5 @@ $Role = Get-MgDirectoryRole | Where DisplayName -eq "Helpdesk Administrator"
 Get-MgDirectoryRoleMember -DirectoryRoleId $Role.Id | ForEach-Object {
     Get-MgUser -UserId $_.Id | Select DisplayName, UserPrincipalName
 }
+
+
